@@ -1,0 +1,14 @@
+/**test.wxss**/
+.box {
+  width:300rpx;
+  height:300rpx;
+  background-color:#66CCFF;
+  border-style:solid;
+  border-width:5rpx;
+  border-radius: 50%;
+}
+
+.word {
+  text-align:center;
+  margin-top:115rpx;
+}

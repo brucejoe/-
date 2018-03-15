@@ -1,0 +1,5 @@
+<view class="container">
+  <view class="box">
+    <view class="word">我的小程序</view>
+  </view>
+</view>
