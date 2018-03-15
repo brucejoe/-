@@ -15,6 +15,9 @@ Page({
       url: '../logs/logs'
     })
   },
+  clickMe: function () {
+    this.setData({ msg: "欢迎来到我的个人小程序" })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({
