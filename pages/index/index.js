@@ -53,5 +53,10 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  }
+  },
+  onReady: function () {
+    wx.navigateTo({
+      url: '../first/first'
+    })
+  },
 })
