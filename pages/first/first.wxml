@@ -2,4 +2,7 @@
   <view class="box">
     <view class="word">我的小程序</view>
   </view>
+  <view class="pic" wx:for="{{array}}">
+    <image class="image" src="{{item.img}}"></image>
+  </view>
 </view>
