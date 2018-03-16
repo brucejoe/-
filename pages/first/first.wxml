@@ -1,8 +1,10 @@
-<view class="container">
-  <view class="box">
-    <view class="word">我的小程序</view>
+<view class="page">
+  <view class="head" bindtap="show">
   </view>
-  <view class="pic" wx:for="{{array}}">
-    <image class="image" src="{{item.img}}"></image>
+  <view class="img-box">
+    <view class="content" wx:for="{{array}}">
+      <image class="pic" src="{{item.pic}}"></image>
+       <view>{{item.name}}</view> 
+    </view>
   </view>
 </view>
