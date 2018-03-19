@@ -1,1 +1,13 @@
 /* pages/second/second.wxss */
+page{
+  background: rgb(240,252,253);
+}
+.slogan{
+  margin:20rpx 0 0 280rpx;
+}
+.btn{
+  margin:20rpx 0 0 300rpx;
+}
+.check{
+  margin:20rpx 0 0 300rpx;
+}

@@ -4,8 +4,16 @@ Page({
   /**
    * 页面的初始数据
    */
-  data: {
-  
+  data:{
+    name:'Wechat',
+    a:1,
+    b:2,
+    c:3
+  },
+  changeName:function(e){
+    this.setData({
+      name:'Luffy'
+    })
   },
 
   /**

@@ -1,2 +1,14 @@
 <!--pages/second/second.wxml-->
-<text>蓝色星球第二季</text>
+<view class="page">
+  <view class="slogan">Hello {{name}}!</view>
+  <button class="btn" size="mini" type="primary" bindtap='changeName'>点我</button>
+  <view class="check">
+    <checkbox checked="{{true}}"></checkbox>
+    <text>男</text>
+    <checkbox></checkbox>
+    <text>女</text>
+  </view>
+  <view>{{a+b+c}}</view>
+  <view>{{a}}+{{b}}+{{c}}</view>
+  <view wx:for="{{[1,2,3]}}">{{item}}</view>
+</view>

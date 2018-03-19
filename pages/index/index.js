@@ -16,7 +16,10 @@ Page({
     })
   },
   clickMe: function () {
-    this.setData({ msg: "欢迎来到我的个人小程序" })
+    this.setData({ msg: "欢迎来到我的个人小程序" });
+    wx.navigateTo({
+      url: '../first/first'
+    })
   },
   onLoad: function () {
     if (app.globalData.userInfo) {
