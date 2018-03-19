@@ -6,6 +6,12 @@
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
       <button bindtap="clickMe">点我</button>
+      <button bindtap="movable">movableArea</button>
+      <button bindtap="cover">coverView</button>
+      <button bindtap="icon">icon</button>
+      <button bindtap="text">text</button>
+      <button bindtap="rich">rich</button>
+      <button bindtap="button">button</button>
       <view>{{ msg }}</view>
     </block>
   </view>

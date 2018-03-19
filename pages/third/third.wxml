@@ -1,0 +1,9 @@
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+
+<view class="modalDlg" wx:if="{{showModal}}">
+    <image src=""/>
+    <text>欢迎来到模态对话框~</text>
+    <button bindtap="go">点我可以关掉对话框</button>
+</view>
+
+<button bindtap="submit">点我弹窗</button>

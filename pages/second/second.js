@@ -15,7 +15,54 @@ Page({
       name:'Luffy'
     })
   },
-
+  check:function(){
+    wx.navigateTo({
+      url: '../third/third'
+    })
+  },
+  form:function(){
+    wx.navigateTo({
+      url: '../fourth/fourth',
+    })
+  },
+  showView:function(){
+    wx.navigateTo({
+      url: '../fifth/fifth',
+    })
+  },
+  actioncnt: function () {
+    wx.showActionSheet({
+      itemList: ['A', 'B', 'C'],
+      success: function (res) {
+        console.log(res.tapIndex)
+      },
+      fail: function (res) {
+        console.log(res.errMsg)
+      }
+    })
+  }, 
+  data: {
+    hiddenmodalput: true,
+    //可以通过hidden是否掩藏弹出框的属性，来指定那个弹出框  
+  },
+  //点击按钮弹窗指定的hiddenmodalput弹出框  
+  modalinput: function () {
+    this.setData({
+      hiddenmodalput: !this.data.hiddenmodalput
+    })
+  },
+  //取消按钮  
+  cancel: function () {
+    this.setData({
+      hiddenmodalput: true
+    });
+  },
+  //确认  
+  confirm: function () {
+    this.setData({
+      hiddenmodalput: true
+    })
+  } ,
   /**
    * 生命周期函数--监听页面加载
    */
@@ -62,7 +109,7 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-  
+
   },
 
   /**

@@ -57,9 +57,39 @@ Page({
       hasUserInfo: true
     })
   },
-  onReady: function () {
+  // onReady: function () {
+  //   wx.navigateTo({
+  //     url: '../first/first'
+  //   })
+  // },
+  movable:function(){
     wx.navigateTo({
-      url: '../first/first'
+      url: '../sixth/sixth',
+    })
+  },
+  cover:function(){
+    wx.navigateTo({
+      url: '../seventh/seventh',
+    })
+  },
+  icon:function(){
+    wx.navigateTo({
+      url: '../eigth/eigth',
+    })
+  },
+  text:function(){
+    wx.navigateTo({
+      url: '../ninth/ninth',
+    })
+  },
+  rich:function(){
+    wx.navigateTo({
+      url: '../tenth/tenth',
+    })
+  },
+  button:function(){
+    wx.navigateTo({
+      url: '../eleventh/eleventh',
     })
   },
 })

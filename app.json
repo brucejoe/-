@@ -3,7 +3,16 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/first/first",
-    "pages/second/second"
+    "pages/second/second",
+    "pages/third/third",
+    "pages/fourth/fourth",
+    "pages/fifth/fifth",
+    "pages/sixth/sixth",
+    "pages/seventh/seventh",
+    "pages/eigth/eigth",
+    "pages/ninth/ninth",
+    "pages/tenth/tenth",
+    "pages/eleventh/eleventh"
   ],
   "window": {
     "backgroundTextStyle": "light",
