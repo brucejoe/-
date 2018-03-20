@@ -1,0 +1,4 @@
+/* pages/render/render.wxss */
+.group {
+ display: flex;
+}

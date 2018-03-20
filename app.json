@@ -1,5 +1,5 @@
 {
-  "pages": [    
+  "pages": [
     "pages/index/index",
     "pages/logs/logs",
     "pages/first/first",
@@ -22,7 +22,9 @@
     "pages/ninteenth/ninteenth",
     "pages/twentieth/twentieth",
     "pages/camera/camera",
-    "pages/service/service"    
+    "pages/service/service",
+    "pages/render/render",
+    "pages/key/key"   
   ],
   "window": {
     "backgroundTextStyle": "light",

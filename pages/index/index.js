@@ -1,7 +1,7 @@
 //index.js
 //获取应用实例
 const app = getApp()
-
+var common = require('../common/common.js')
 Page({
   data: {
     motto: 'Hello World',
@@ -56,6 +56,12 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  helloMINA: function () {
+    common.sayHello('MINA')
+  },
+  goodbyeMINA: function () {
+    common.sayGoodbye('MINA')
   },
   // onReady: function () {
   //   wx.navigateTo({
@@ -140,6 +146,16 @@ Page({
   service:function(){
     wx.navigateTo({
       url: '../service/service',
+    })
+  },
+  render:function(){
+    wx.navigateTo({
+      url: '../render/render',
+    })
+  },
+  key:function(){
+    wx.navigateTo({
+      url: '../key/key',
     })
   },
 })

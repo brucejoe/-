@@ -32,6 +32,11 @@
         <button bindtap="camera">camera</button>
         <button bindtap="service">service</button>
       </view>
+      <view class="group">
+        <button bindtap="helloMINA">hello</button>
+        <button bindtap="render">render</button>
+        <button bindtap="key">key</button>
+      </view>
     </block>
   </view>
   <view class="usermotto">
