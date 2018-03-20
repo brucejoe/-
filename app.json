@@ -24,7 +24,8 @@
     "pages/camera/camera",
     "pages/service/service",
     "pages/render/render",
-    "pages/key/key"   
+    "pages/key/key",
+    "pages/temp/temp"
   ],
   "window": {
     "backgroundTextStyle": "light",

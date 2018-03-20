@@ -36,6 +36,7 @@
         <button bindtap="helloMINA">hello</button>
         <button bindtap="render">render</button>
         <button bindtap="key">key</button>
+        <button bindtap="temp">temp</button>
       </view>
     </block>
   </view>

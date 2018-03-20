@@ -158,4 +158,9 @@ Page({
       url: '../key/key',
     })
   },
+  temp:function(){
+    wx.navigateTo({
+      url: '../temp/temp',
+    })
+  },
 })

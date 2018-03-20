@@ -18,10 +18,8 @@ Page({
       const temp = this.data.objectArray[x]
       this.data.objectArray[x] = this.data.objectArray[y]
       this.data.objectArray[y] = temp
-      
     }
-    console.log(this.data.objectArray)
-    this.setData({
+    this.setData({  
       objectArray: this.data.objectArray
     })
   },
