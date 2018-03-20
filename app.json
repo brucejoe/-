@@ -21,7 +21,8 @@
     "pages/eighteenth/eighteenth",
     "pages/ninteenth/ninteenth",
     "pages/twentieth/twentieth",
-    "pages/camera/camera"    
+    "pages/camera/camera",
+    "pages/service/service"    
   ],
   "window": {
     "backgroundTextStyle": "light",

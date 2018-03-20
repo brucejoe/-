@@ -30,6 +30,7 @@
       <view class="group">
         <button bindtap="canvas">canvas</button>
         <button bindtap="camera">camera</button>
+        <button bindtap="service">service</button>
       </view>
     </block>
   </view>

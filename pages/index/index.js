@@ -137,4 +137,9 @@ Page({
       url: '../camera/camera',
     })
   },
+  service:function(){
+    wx.navigateTo({
+      url: '../service/service',
+    })
+  },
 })
