@@ -1,3 +1,6 @@
 <import src="../common/common.wxml"/>
+<wxs src="../common/tools.wxs" module="tools" />
 <template is="msgItem" data="{{...item}}"/>
 <template is="button"/>
+<view> {{tools.msg}} </view>
+<view> {{tools.bar(tools.FOO)}} </view>
