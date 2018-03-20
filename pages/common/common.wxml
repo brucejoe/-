@@ -4,3 +4,6 @@
     <text> Time: {{time}} </text>
   </view>
 </template>
+<template name="button">
+  <button type="primary">点一下有惊喜！</button>
+</template>

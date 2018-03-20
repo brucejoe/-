@@ -1,2 +1,3 @@
 <import src="../common/common.wxml"/>
 <template is="msgItem" data="{{...item}}"/>
+<template is="button"/>
