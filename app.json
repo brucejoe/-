@@ -1,5 +1,5 @@
 {
-  "pages": [
+  "pages": [    
     "pages/index/index",
     "pages/logs/logs",
     "pages/first/first",
@@ -12,7 +12,15 @@
     "pages/eigth/eigth",
     "pages/ninth/ninth",
     "pages/tenth/tenth",
-    "pages/eleventh/eleventh"
+    "pages/eleventh/eleventh",
+    "pages/twelfth/twelfth",
+    "pages/fourteenth/fourteenth",
+    "pages/fifteenth/fifteenth",
+    "pages/sixteenth/sixteenth",
+    "pages/seventeenth/seventeenth",
+    "pages/eighteenth/eighteenth",
+    "pages/ninteenth/ninteenth",
+    "pages/twentieth/twentieth"    
   ],
   "window": {
     "backgroundTextStyle": "light",

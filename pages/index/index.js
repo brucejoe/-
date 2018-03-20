@@ -92,4 +92,44 @@ Page({
       url: '../eleventh/eleventh',
     })
   },
+  input:function(){
+    wx.navigateTo({
+      url: '../twelfth/twelfth',
+    })
+  },
+  label:function(){
+    wx.navigateTo({
+      url: '../fourteenth/fourteenth',
+    })
+  },
+  picker:function(){
+    wx.navigateTo({
+      url: '../fifteenth/fifteenth',
+    })
+  },
+  pickerView:function(){
+    wx.navigateTo({
+      url: '../sixteenth/sixteenth',
+    })
+  },
+  slider:function(){
+    wx.navigateTo({
+      url: '../seventeenth/seventeenth',
+    })
+  },
+  switch:function(){
+    wx.navigateTo({
+      url: '../eighteenth/eighteenth',
+    })
+  },
+  textarea:function(){
+    wx.navigateTo({
+      url: '../ninteenth/ninteenth',
+    })
+  },
+  canvas:function(){
+    wx.navigateTo({
+      url: '../twentieth/twentieth',
+    })
+  },
 })
