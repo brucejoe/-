@@ -20,7 +20,8 @@
     "pages/seventeenth/seventeenth",
     "pages/eighteenth/eighteenth",
     "pages/ninteenth/ninteenth",
-    "pages/twentieth/twentieth"    
+    "pages/twentieth/twentieth",
+    "pages/camera/camera"    
   ],
   "window": {
     "backgroundTextStyle": "light",

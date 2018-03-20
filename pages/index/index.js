@@ -132,4 +132,9 @@ Page({
       url: '../twentieth/twentieth',
     })
   },
+  camera:function(){
+    wx.navigateTo({
+      url: '../camera/camera',
+    })
+  },
 })

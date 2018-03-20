@@ -27,8 +27,9 @@
         <button bindtap="switch">switch</button>
         <button bindtap="textarea">textarea</button>
       </view>
-      <view>
+      <view class="group">
         <button bindtap="canvas">canvas</button>
+        <button bindtap="camera">camera</button>
       </view>
     </block>
   </view>

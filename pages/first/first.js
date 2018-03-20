@@ -22,14 +22,19 @@ Page({
       url: '../second/second'
     })
   },
-
+  onReady:function(){
+    wx.showToast({
+      title: '页面加载完成',
+      icon:'success',
+      duration:1000
+    })
+  },
     /**
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
     wx.showToast({
-      title: '成功',
-      icon: 'success',
+      title: '已到页面最后',
       duration: 2000
     })  
   },
