@@ -163,4 +163,9 @@ Page({
       url: '../temp/temp',
     })
   },
+  maps:function(){
+    wx.navigateTo({
+      url: '../map/map',
+    })
+  },
 })

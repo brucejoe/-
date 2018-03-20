@@ -38,6 +38,9 @@
         <button bindtap="key">key</button>
         <button bindtap="temp">temp</button>
       </view>
+      <view class="group">
+        <button bindtap="maps">map</button>
+      </view>
     </block>
   </view>
   <view class="usermotto">
