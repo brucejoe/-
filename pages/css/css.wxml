@@ -1,0 +1,6 @@
+<!--pages/css/css.wxml-->
+<view class="page">
+  <view class="group">
+    <button bindtap="bonus">积分</button>
+  </view>
+</view>

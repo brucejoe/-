@@ -1,0 +1,21 @@
+<!--pages/bonus/bonus.wxml-->
+<view class="page">
+  <view class="head">
+    <view class="words">
+      卡内积分（分）| 可抵扣6元钱
+    </view>
+    <view class="number">
+     129
+    </view>
+    <view class="bonus">
+      积分说明
+    </view>
+  </view>
+  <view class="body">
+    <view class="detail">积分明细</view>
+    <view class="list">
+      <view class="intro">消费奖励</view>
+      <view class="time">今天 06：08</view>
+    </view>
+  </view>
+</view>

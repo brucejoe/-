@@ -1,0 +1,7 @@
+/* pages/css/css.wxss */
+page {
+  background:rgb(240,252,254);
+}
+.group {
+  display:flex;
+}

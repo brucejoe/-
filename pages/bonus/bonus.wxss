@@ -1,0 +1,40 @@
+/* pages/bonus/bonus.wxss */
+.head {
+  height:300rpx;
+  background: rgb(234,0,30);
+}
+.words {
+  padding:70rpx 0 0 40rpx;
+  font-size: 27rpx;
+  color:rgb(250,170,178);
+}
+.number {
+  padding:0 0 0 40rpx;
+  font-size: 120rpx;
+  color:rgb(254,254,254);
+}
+.bonus {
+  position: relative;
+  top:-120rpx;
+  left:500rpx;
+  border-radius: 70rpx;
+  background:rgb(255,196,67);
+  width:200rpx;
+  height:70rpx;
+  color:rgb(255,253,242);
+  font-size:30rpx;
+  text-align: center;
+  line-height:70rpx;
+  font-family: Microsoft Yahei;
+}
+.detail {
+  height:110rpx;
+  background: rgb(244,244,244);
+  line-height:110rpx;
+  padding:0 0 0 30rpx;
+  color:rgb(82,82,82);
+}
+.list {
+  height:250rpx;
+  background: rgb(255,255,255);
+}

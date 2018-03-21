@@ -168,4 +168,9 @@ Page({
       url: '../map/map',
     })
   },
+  css:function(){
+    wx.navigateTo({
+      url: '../css/css',
+    })
+  },
 })
