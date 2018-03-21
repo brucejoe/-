@@ -14,8 +14,20 @@
   <view class="body">
     <view class="detail">积分明细</view>
     <view class="list">
-      <view class="intro">消费奖励</view>
-      <view class="time">今天 06：08</view>
+       <view class="intro">消费奖励</view>
+       <view class="time">今天 06:08</view>
+       <view class="img">
+         <image class="img" src="../../image/purchuse.png"></image>
+       </view> 
+       <view class="score">+ 5</view> 
+    </view>
+    <view class="list">
+    </view>
+    <view class="list">
+    </view>
+    <view class="list">
+    </view>
+    <view class="list">
     </view>
   </view>
 </view>
