@@ -15,11 +15,13 @@
     <view class="detail">积分明细</view>
     <view class="list">
        <view class="intro">消费奖励</view>
-       <view class="time">今天 06:08</view>
+       <view class="time">五道口门店消费239.00</view>
        <view class="img">
-         <image class="img" src="../../image/purchuse.png"></image>
+         <image class="img" src="../../image/project/plus.png"></image>
        </view> 
        <view class="score">+ 5</view> 
+       <view class="times">2018-03-22 12:30</view>
+       <image class="turn" src="../../image/project/right.png"></image>
     </view>
     <view class="list">
     </view>
