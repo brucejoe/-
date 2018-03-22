@@ -1,0 +1,79 @@
+/* pages/store/store.wxss */
+.head {
+  background: rgb(234,0,29);
+  height: 110rpx
+}
+.input {
+  background-color:rgb(255,255,255);
+  width:710rpx;
+  height:75rpx;
+  position: relative;
+  top:18rpx;
+  left:21rpx;
+  border-radius: 5rpx;
+} 
+.img {
+  width:30rpx;
+  height:35rpx;
+  float:left;
+}
+.words {
+  font-size:27rpx;
+  color:rgb(141,141,141);
+  margin:25rpx 0 0 15rpx;
+}
+.box {
+  display:flex;
+  flex-wrap:wrap;
+}
+.line {
+  height:1rpx;
+  width:720rpx;
+  background-color: #ccc;
+  margin:15rpx 0 0 15rpx;
+}
+.store {
+  margin:20rpx 0 0 15rpx;
+}
+.name {
+  color:rgb(234,0,29);
+  font-size:29rpx;
+}
+.distance {
+  color:rgb(141,141,141);
+  font-size:27rpx;
+}
+.location {
+  color:rgb(141,141,141);
+  font-size:27rpx;
+}
+.del {
+  width:30rpx;
+  height:30rpx;
+  position: relative;
+  top:-90rpx;
+  left:700rpx;
+}
+.waist {
+  height:80rpx;
+  background-color: rgb(245,246,247);
+}
+.show {
+  font-size:27rpx;
+  color:rgb(141,141,141);
+  padding:20rpx 0 0 15rpx;
+}
+.switch {
+  font-size:29rpx;
+  color:rgb(42,129,235);
+  position: relative;
+  top:-38rpx;
+  left:580rpx;
+}
+.triangle {
+  width:15rpx;
+  height:22rpx;
+  position: relative;
+  top:-79rpx;
+  left:709rpx;    
+}

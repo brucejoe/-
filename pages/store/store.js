@@ -1,4 +1,4 @@
-// pages/css/css.js
+// pages/store/store.js
 Page({
 
   /**
@@ -7,26 +7,7 @@ Page({
   data: {
   
   },
-  bonus:function(){
-    wx.navigateTo({
-      url: '../bonus/bonus',
-    })
-  },
-  success:function(){
-    wx.navigateTo({
-      url: '../success/success',
-    })
-  },
-  choose:function(){
-    wx.navigateTo({
-      url: '../choose/choose',
-    })
-  },
-  store:function(){
-    wx.navigateTo({
-      url: '../store/store',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

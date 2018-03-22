@@ -4,5 +4,6 @@
     <button bindtap="bonus">积分</button>
     <button bindtap="success">vip会员购买成功</button>
     <button bindtap="choose">选择门店城市</button>
+    <button bindtap="store">门店</button>
   </view>
 </view>

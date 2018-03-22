@@ -1,0 +1,32 @@
+<!--pages/store/store.wxml-->
+<view class="page">
+  <view class="head">
+    <input type="text" placeholder-style="font-size:28rpx;color:rgb(141,141,141)" class="input" placeholder='请输入搜索城市' auto-focus/>
+    <!-- <image class="img" src="../../image/project/search-bg.jpg"></image>  -->
+  </view>
+   <view class="body">
+     <view class="words">已选择门店（最多可选择2个门店）</view>
+     <view class="line"></view>
+      <view class="store">
+        <view class="name">西贝莜面村北京五道口门店</view>
+        <view class="distance">3km</view>
+        <view class="location">门店地址：北京市西城区西单北大街133号北京君太百货B1</view>
+        <image class="del" src="../../image/project/close.png"></image>
+      </view>
+      <view class="store">
+        <view class="name">西贝莜面村北京五道口门店</view>
+        <view class="distance">3km</view>
+        <view class="location">门店地址：北京市西城区西单北大街133号北京君太百货B1</view>
+        <image class="del" src="../../image/project/close.png"></image>
+      </view>
+      <view class="waist">
+        <view class="left">
+          <view class="show">北京全部门店</view>
+        </view>
+        <view class="right">
+          <view class="switch">切换城市</view>
+          <image class="triangle" src="../../image/project/more-city.jpg"></image>        
+        </view>
+      </view>
+   </view> 
+</view>
