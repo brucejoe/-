@@ -1,27 +1,21 @@
-// pages/css/css.js
+// pages/choose/choose.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    choose:1,
+  },
   
-  },
-  bonus:function(){
-    wx.navigateTo({
-      url: '../bonus/bonus',
-    })
-  },
-  success:function(){
-    wx.navigateTo({
-      url: '../success/success',
-    })
-  },
   choose:function(){
-    wx.navigateTo({
-      url: '../choose/choose',
-    })
+    if(choose == 1){
+      this.setData({
+        choose:0
+      })
+    }
   },
+
   /**
    * 生命周期函数--监听页面加载
    */

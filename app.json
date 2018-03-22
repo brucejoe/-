@@ -29,7 +29,8 @@
     "pages/map/map",
     "pages/css/css",
     "pages/bonus/bonus",
-    "pages/success/success"
+    "pages/success/success",
+    "pages/choose/choose"
   ],
   "window": {
     "backgroundTextStyle": "light",

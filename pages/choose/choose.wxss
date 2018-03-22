@@ -1,0 +1,39 @@
+/* pages/choose/choose.wxss */
+.head {
+  background: rgb(234,0,29);
+  height: 110rpx
+}
+.input {
+  background-color:rgb(255,255,255);
+  width:710rpx;
+  height:75rpx;
+  position: relative;
+  top:18rpx;
+  left:21rpx;
+  border-radius: 5rpx;
+} 
+.img {
+  width:30rpx;
+  height:35rpx;
+  float:left;
+}
+.words {
+  font-size:27rpx;
+  color:rgb(141,141,141);
+  margin:25rpx 0 0 15rpx;
+}
+.location {
+  border:1px solid #ccc;
+  border-radius: 8rpx;
+  width:210rpx;
+  height:70rpx;
+  text-align: center;
+  line-height: 70rpx;
+  margin:25rpx 0 0 25rpx;
+  font-size:32rpx;
+  font-weight: 400rpx;
+}
+.box {
+  display:flex;
+  flex-wrap:wrap;
+}
