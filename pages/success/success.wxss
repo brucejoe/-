@@ -1,0 +1,21 @@
+/* pages/success/success.wxss */
+.img {
+  width:120rpx;
+  height:120rpx;
+  margin:140rpx 0 0 310rpx;
+}
+.slogen {
+  font-size: 40rpx;
+  font-weight:400;
+  margin:60rpx 0 0 140rpx;
+}
+.slogen2 {
+  margin:10rpx 0 0 60rpx;
+}
+.btn {
+ color:aliceblue;
+ background-color: rgb(234,0,29);
+ width:680rpx;
+ border-radius: 7rpx;
+ margin:160rpx 0 0 35rpx;
+}

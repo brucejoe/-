@@ -1,0 +1,9 @@
+<!--pages/success/success.wxml-->
+<view class="page">
+  <image class="img" src="../../image/project/success.jpg"></image>
+  <view class="slogen">
+    <view class="slogen1">快加入西贝喜悦会VIP会员</view>
+    <view class="slogen2">享受更多VIP特权吧</view>
+  </view>
+  <button class="btn">立即加入</button>
+</view>
