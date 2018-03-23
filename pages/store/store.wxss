@@ -1,16 +1,18 @@
 /* pages/store/store.wxss */
 .head {
   background: rgb(234,0,29);
-  height: 110rpx
+  height: 100rpx;
+  padding:18rpx 0 0 21rpx;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .input {
   background-color:rgb(255,255,255);
   width:710rpx;
   height:75rpx;
-  position: relative;
-  top:18rpx;
-  left:21rpx;
-  border-radius: 5rpx;
+  border-radius: 5rpx; 
 } 
 .img {
   width:30rpx;
@@ -34,6 +36,7 @@
 }
 .store {
   margin:20rpx 0 0 15rpx;
+  display: flex;
 }
 .name {
   color:rgb(234,0,29);
@@ -57,23 +60,21 @@
 .waist {
   height:80rpx;
   background-color: rgb(245,246,247);
+  padding:15rpx 10rpx 0 0;
+  display: -webkit-flex;
+  -webkit-justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 .show {
   font-size:27rpx;
   color:rgb(141,141,141);
-  padding:20rpx 0 0 15rpx;
 }
 .switch {
   font-size:29rpx;
   color:rgb(42,129,235);
-  position: relative;
-  top:-38rpx;
-  left:580rpx;
 }
 .triangle {
   width:15rpx;
   height:22rpx;
-  position: relative;
-  top:-79rpx;
-  left:709rpx;    
 }

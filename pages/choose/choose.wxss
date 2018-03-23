@@ -1,16 +1,18 @@
 /* pages/choose/choose.wxss */
 .head {
   background: rgb(234,0,29);
-  height: 110rpx
+  height: 100rpx;
+  padding:18rpx 0 0 21rpx;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .input {
   background-color:rgb(255,255,255);
   width:710rpx;
   height:75rpx;
-  position: relative;
-  top:18rpx;
-  left:21rpx;
-  border-radius: 5rpx;
+  border-radius: 5rpx; 
 } 
 .img {
   width:30rpx;
